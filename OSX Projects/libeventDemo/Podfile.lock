@@ -1,0 +1,14 @@
+PODS:
+  - libevent (0.1.0)
+
+DEPENDENCIES:
+  - libevent (from `../../`)
+
+EXTERNAL SOURCES:
+  libevent:
+    :path: ../../
+
+SPEC CHECKSUMS:
+  libevent: 578c3505e8b330e783d27b6d3412b33c95065cdd
+
+COCOAPODS: 0.39.0
