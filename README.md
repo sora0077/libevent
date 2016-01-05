@@ -1,15 +1,14 @@
 # libevent
 
-[![CI Status](http://img.shields.io/travis/sora0077/libevent.svg?style=flat)](https://travis-ci.org/sora0077/libevent)
-[![Version](https://img.shields.io/cocoapods/v/libevent.svg?style=flat)](http://cocoapods.org/pods/libevent)
-[![License](https://img.shields.io/cocoapods/l/libevent.svg?style=flat)](http://cocoapods.org/pods/libevent)
-[![Platform](https://img.shields.io/cocoapods/p/libevent.svg?style=flat)](http://cocoapods.org/pods/libevent)
-
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+```sh
+brew install libevent
+```
 
 ## Installation
 
@@ -17,6 +16,22 @@ libevent is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+pod "libevent", :git => "https://github.com/sora0077/libevent.git"
+```
+
+### podspec dependency
+
+In podspec,
+
+```ruby
+spec.dependency "libevent"
+```
+
+In Podfile,
+
+```ruby
+source "https://github.com/sora0077/PodSpecs.git"
+
 pod "libevent"
 ```
 
